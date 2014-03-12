@@ -1,0 +1,919 @@
+<!DOCTYPE HTML>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+         More info: h5bp.com/i/378 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Big Nerd Ranch</title>
+    <meta name="description" content="">
+
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width">
+    <!-- Pinterest Snippet -->
+    <meta name="p:domain_verify" content="149a6679157d4101d90da1631465465f"/>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icon -->
+    <!-- For iPhone 4 with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/h/apple-touch-icon.png">
+    <!-- For first-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/m/apple-touch-icon.png">
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="/images/l/apple-touch-icon-precomposed.png">
+    <!-- For nokia devices: -->
+    <link rel="shortcut icon" href="/images/l/apple-touch-icon.png">
+
+    <link rel="alternate" type="application/rss+xml" title="Big Nerd Ranch Blog RSS Feed" href="http://blog.bignerdranch.com/feed/" />
+
+    <link rel="stylesheet" href="/css/application.css.css">
+
+    <!-- All JavaScript at the bottom, except this Modernizr build.
+         Modernizr enables HTML5 elements & feature detects for optimal performance.
+         Create your own custom Modernizr build: www.modernizr.com/download/ -->
+    <script src="/js/libs/modernizr-2.5.3.min.js"></script>
+
+    <script type="text/javascript" src="//use.typekit.com/xgr1eyx.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body>
+    <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+    <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+    <header class="bg-header">
+      <div class="l-container">
+        <a href="/index" title="Home"><h1 class="bg-logo">Big Nerd Ranch</h1></a>
+
+        <nav>
+          <ul>
+            <li>
+              <a href="/index" title="Home" class="js-top-link list-home-link"></a>
+            </li>
+
+                        <li>
+                                <a href="/training" class="js-top-link">TRAINING</a>
+                          <div class="subNavBox">
+                <div class="subNavContainer">
+                                          <ul class="subNav">
+                    <li><a href="/classes">Classes</a></li>
+                                                        <li><a href="/schedule">Schedule</a></li>
+                                                        <li><a href="/corporate">Corporate Training</a></li>
+                                                        <li><a href="/locations">Locations</a></li>
+                    <li><a href="/gift_certificates" title="Locations">Gift Certificates</a></li>
+                                                        <li><a href="/signin" target="_blank">Register</a></li>
+                                                </ul>
+                                        </div>
+                                </div>
+                        </li>
+
+                        <li>
+                                <a href="/app-development" class="js-top-link">CONSULTING</a>
+                                <div class="subNavBox">
+                <div class="subNavContainer">
+                                                <ul class="subNav">
+                                                        <li><a href="/app-development/about">About</a></li>
+                                                        <li><a href="/app-development/process">Our Process</a></li>
+                                                        <li><a href="/app-development/clients">Clients &amp; Testimonials</a></li>
+                                                </ul>
+                                        </div>
+                                </div>
+                        </li>
+
+            <li>
+              <a href="/europe" class="js-top-link">EUROPE</a>
+              <div class="subNavBox">
+                <div class="subNavContainer">
+                  <ul class="subNav">
+                    <li><a href="/europe/nerds">Meet the Team - Europe</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+                        <li>
+              <a href="/books" class="js-top-link">BOOKS</a>
+              <div class="subNavBox">
+                <div class="subNavContainer">
+                  <ul class="subNav">
+                    <li><a href="/book/advanced_mac_os_x_programming_rd_edition_">Advanced Mac OS X Programming</a></li>
+                    <li><a href="/book/android_the_big_nerd_ranch_guide">Android Programming</a></li>
+                    <li><a href="/book/cocoa_programming_for_mac_os_x_th_edition_">Cocoa Programming</a></li>
+                                                            <li><a href="/book/ios_programming_the_big_nerd_ranch_guide">iOS Programming</a></li>
+                                                            <li><a href="/book/objective-c_programming_the_big_nerd_ranch_guide_2nd_ed">Objective-C Programming</a></li>
+                                                            <li><a href="/books/faq">Book FAQs</a><li>
+                  </ul>
+                                        </div>
+                                </div>
+                        </li>
+
+                        <li>
+                          <a href="/about_us" class="js-top-link">ABOUT</a>
+                    <div class="subNavBox">
+                            <div class="subNavContainer">
+                  <ul class="subNav">
+                                                  <li><a href="/about_us/big-nerd-way">The Big Nerd Way</a></li>
+                                                  <li><a href="/about_us/nerds">Meet the Team</a></li>
+                                                  <li><a href="/about_us/careers">Nerd Careers</a></li>
+                  </ul>
+                                  </div>
+              </div>
+                        </li>
+
+                        <li>
+                    <a href="/ranch-report" class="js-top-link">NERD NEWS</a>
+                    <div class="subNavBox">
+                <div class="subNavContainer">
+                  <ul class="subNav">
+                    <li><a href="http://blog.bignerdranch.com/" target="_blank">The Nerd Blog</a></li>
+                  </ul>
+                </div>
+              </div>
+                        </li>
+
+                        <li><a href="/contact" class="js-top-link">CONTACT</a></li>
+                </ul>
+        </nav>
+        <div id="navOff"></div>
+
+<div id="pageSubNav" class="clearfix">
+  <ul class="pageNav">
+    <li><a href="/about_us/big-nerd-way" title="The Big Nerd Way">The Big Nerd Way</a></li>
+    <li><a href="/about_us/nerds" class="active" title="Meet the Team">Meet the Team</a></li>
+    <li><a href="/about_us/careers" title="Nerd Careers">Nerd Careers</a></li>
+  </ul>
+</div>
+
+      </div>
+    </header>
+
+
+<div role="main" class="l-main">
+  <div class="l-main-container">
+    <div class="l-full-length u-rounded-top">
+      <div class="l-full-container">
+        <h1>The Nerds in Our Herd</h1>
+        <p>To say our nerds are highly qualified would be an understatement. From prodigies who taught themselves to program as children, to bona fide Mac geniuses, to skilled teachers, their sheer brainpower keeps the ranch going—and growing. Our nerds have authored books, created apps, sold companies, co-founded international programmer groups, and even won a Grammy. But the coolest thing is, they’re also some of the nicest people you may ever meet.</p>
+      </div>
+    </div>
+
+    <div class="l-full-length u-rounded-top">
+      <div class="l-full-container">
+        <a class="l-about-nerd-bio" href="nerds/charles_brian_quinn">
+          <img src="/images/headshots-white-bg/cbq.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">CBQ</p>
+          <p class="t-bio-title">Chief Executive Officer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/aaron_hillegass">
+          <img src="/images/headshots-white-bg/aaron-hillegass.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Aaron Hillegass</p>
+          <p class="t-bio-title">Chief Learning Officer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/adam_preble">
+        <img src="/images/headshots-white-bg/adam-premble.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+        <p class="t-bio-name">Adam Preble</p>
+        <p class="t-bio-title">VP Engineering</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/agnes_mackintosh">
+          <img src="/images/headshots-white-bg/agnes-mackintosh.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Agnes Mackintosh</p>
+          <p class="t-bio-title">Training Coordinator</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/alec_burch">
+          <img src="/images/headshots-white-bg/alec-burch.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Alec Burch</p>
+          <p class="t-bio-title">Design Intern</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/andrew_jones">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Andrew Jones</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/andrew_lunsford">
+          <img src="/images/headshots-white-bg/andrew-lunceford.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Andrew Lunsford</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/ashley_putnam">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Ashley Putnam</p>
+          <p class="t-bio-title">Mobile UX/UI Designer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/aubrey_rhodes">
+          <img src="/images/headshots-white-bg/aubrey-rhodes.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Aubrey Rhodes</p>
+          <p class="t-bio-title">Director of Consulting Operations</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/bill_phillips">
+          <img src="/images/headshots-white-bg/bill-phillips.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Bill Phillips</p>
+          <p class="t-bio-title">Software Developer &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/bill_monk">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Bill Monk</p>
+          <p class="t-bio-title">Software Developer &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/blithe_rocher">
+          <img src="/images/headshots-white-bg/blithe-rocher.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Blithe Rocher</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/bolot_kerimbaev">
+          <img src="/images/headshots-white-bg/bolot-kerimbaev.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Bolot Kerimbaev</p>
+          <p class="t-bio-title">iOS Team Manager &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/brad_schricker">
+          <img src="/images/headshots-white-bg/brad-schricker.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Brad Schricker</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/brandon_beacher">
+          <img src="/images/headshots-white-bg/brandon-beacher.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Brandon Beacher</p>
+          <p class="t-bio-title">Backend Web Team Manager</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/brandy_porter">
+          <img src="/images/headshots-white-bg/brandy-porter.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Brandy Porter</p>
+          <p class="t-bio-title">Director of Design</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/brian_gardner">
+          <img src="/images/headshots-white-bg/brian-gardner.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Brian Gardner</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/brian_hardy">
+          <img src="/images/headshots-white-bg/brian-hardy.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Brian Hardy</p>
+          <p class="t-bio-title">Director of iOS &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/brian_harper">
+          <img src="/images/headshots-white-bg/brian-harper.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Brian Harper</p>
+          <p class="t-bio-title">Design Team Manger &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/bree_stanwyck">
+          <img src="/images/headshots-white-bg/brian-stanwyck.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Bree Stanwyck</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/chae_okeefe">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Chae O&apos;Keefe</p>
+          <p class="t-bio-title">Intern</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/charlie_maffitt">
+          <img src="/images/headshots-white-bg/charlie-maffitt.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Charlie Maffitt</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/charlie_tanksley">
+          <img src="/images/headshots-white-bg/charlie-tanksley.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Charlie Tanksley</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/chris_aquino">
+          <img src="/images/headshots-white-bg/chris-aquino.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Chris Aquino</p>
+          <p class="t-bio-title">Director of Frontend/HTML5, Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/chris_kelly">
+          <img src="/images/headshots-white-bg/chris-kelly.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Chris Kelly</p>
+          <p class="t-bio-title">Director of Internal Operations</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/chris_kirksey">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Chris Kirksey</p>
+          <p class="t-bio-title">Business Development Rep</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/chris_morris">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Chris Morris</p>
+          <p class="t-bio-title">Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/chris_stewart">
+          <img src="/images/headshots-white-bg/chris-stewart.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Chris Stewart</p>
+          <p class="t-bio-title">Director of Android &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/christian_keur">
+          <img src="/images/headshots-white-bg/christian-keur.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Christian Keur</p>
+          <p class="t-bio-title">iOS Team Manager &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/daniel_rice">
+          <img src="/images/headshots-white-bg/daniel-rice.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Daniel Rice</p>
+          <p class="t-bio-title">Software Developer &amp; Sales Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/darren_pottinger">
+          <img src="/images/headshots-white-bg/darren-pottinger.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Darren Pottinger</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/desiree_johnson">
+          <img src="/images/headshots-white-bg/desiree-johnson.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Desiree Johnson</p>
+          <p class="t-bio-title">Mobile UX/UI Designer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/don_pottinger">
+          <img src="/images/headshots-white-bg/don-pottinger.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Don Pottinger</p>
+          <p class="t-bio-title">Backend Web Team Manager</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/emily_herman">
+          <img src="/images/headshots-white-bg/emily-herman.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Emily Herman</p>
+          <p class="t-bio-title">VP of Operations</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/eric_jeffers">
+          <img src="/images/headshots-white-bg/eric-jeffers.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Eric Jeffers</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/erick_camacho">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Erick Camacho</p>
+          <p class="t-bio-title">Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/felicia_harris">
+          <img src="/images/headshots-white-bg/felicia-harris.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Felicia Harris</p>
+          <p class="t-bio-title">Accountant</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/fernando_rodriguez">
+          <img src="/images/headshots-white-bg/fernando-rodriguez.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Fernando Rodriguez</p>
+          <p class="t-bio-title">Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/galvin_butler">
+          <img src="/images/headshots-white-bg/galvin-butler.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Galvin Butler</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/garry_smith">
+          <img src="/images/headshots-white-bg/garry-smith.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Garry Smith</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/geoffrey_schorkopf">
+          <img src="/images/headshots-white-bg/geoff-schorkopf.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Geoffrey Schorkopf</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/graham_lee">
+          <img src="/images/headshots-white-bg/graham-lee.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Graham Lee</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/howard_vining">
+          <img src="/images/headshots-white-bg/howard-vinings.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Howard Vining</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jami_sieder">
+          <img src="/images/headshots-white-bg/jami-sieder.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Jami Sieder</p>
+          <p class="t-bio-title">Director of Training Business Development</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jason_atwood">
+          <img src="/images/headshots-white-bg/jason-atwood.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Jason Atwood</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jason_reece">
+          <img src="/images/headshots-white-bg/jason-reece.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Jason Reece</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jason_russell">
+          <img src="/images/headshots-white-bg/jason-russell.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Jason Russell</p>
+          <p class="t-bio-title">Vice President, Business Development</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jay_hayes">
+          <img src="/images/headshots-white-bg/jay-hayes.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Jay Hayes</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jeff_heaton">
+          <img src="/images/headshots-white-bg/jeff-heaton.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Jeff Heaton</p>
+          <p class="t-bio-title">Designer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jenn_green">
+          <img src="/images/headshots-white-bg/jenn-green.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Jenn Green</p>
+          <p class="t-bio-title">Project Strategist</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jeremy_w_sherman">
+          <img src="/images/headshots-white-bg/jeremy-matthews.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Jeremy Sherman</p>
+          <p class="t-bio-title">Software Developer &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/john_gallagher">
+          <img src="/images/headshots-white-bg/john-gallagher.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">John Gallagher</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jj_manton">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">JJ Manton</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jon_woodroof">
+          <img src="/images/headshots-white-bg/jon-woodroof.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Jon Woodroof</p>
+          <p class="t-bio-title">Sales Director, Europe</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jonathan_blocksom">
+          <img src="/images/headshots-white-bg/jonathan-blocksom.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Jonathan Blocksom</p>
+          <p class="t-bio-title">Instructor &amp; Managing Director Washington, D.C.</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jonathan_martin">
+          <img src="/images/headshots-white-bg/jonathan-martin.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Jonathan Martin</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jonathan_wallace">
+          <img src="/images/headshots-white-bg/jonathan-wallace.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Jonathan Wallace</p>
+          <p class="t-bio-title">Backend Web Team Manager</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/jordan_killpack">
+          <img src="/images/headshots-white-bg/jordan-killpack.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Jordan Killpack</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/joseph_dixon">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Joseph Dixon</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/josh_skeen">
+          <img src="/images/headshots-white-bg/josh-skeen.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Josh Skeen</p>
+          <p class="t-bio-title">Software Developer &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/juan_pablo_claude">
+          <img src="/images/headshots-white-bg/juan-pablo-claude.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Juan Pablo Claude</p>
+          <p class="t-bio-title">Software Developer &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/kar_loong_wong">
+          <img src="/images/headshots-white-bg/kar-loong-wong.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Kar Loong Wong</p>
+          <p class="t-bio-title">UX Designer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/kathryn_thomas">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Kathryn Thomas</p>
+          <p class="t-bio-title">Project Strategist</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/katie_torres">
+          <img src="/images/headshots-white-bg/katie-torres.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Katie Torres</p>
+          <p class="t-bio-title">HR Benefits Coordinator</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/kristin_marsicano">
+          <img src="/images/headshots-white-bg/kristin-marsicano.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Kristin Marsicano</p>
+          <p class="t-bio-title">Android Team Manager &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/kurt_nelson">
+          <img src="/images/headshots-white-bg/kurt-nelson.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Kurt Nelson</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/kynerd_coleman">
+          <img src="/images/headshots-white-bg/kynerd-coleman.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Kynerd Coleman</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/kylie_stradley">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Kylie Stradley</p>
+          <p class="t-bio-title">Intern</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/laura_cassell">
+          <img src="/images/headshots-white-bg/laura-cassell.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Laura Cassell</p>
+          <p class="t-bio-title">Software Developer &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/leann_boucher">
+          <img src="/images/headshots-white-bg/leann-boucher.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Leann Boucher</p>
+          <p class="t-bio-title">Director of PR &amp; Marketing</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/marcel_speller">
+          <img src="/images/headshots-white-bg/marcel-speller.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Marcel Speller</p>
+          <p class="t-bio-title">Managing Director, Big Nerd Ranch Europe</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/marcus_owens">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Marcus Owens</p>
+          <p class="t-bio-title">Project Strategist</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/mark_dalrymple">
+          <img src="/images/headshots-white-bg/mark-dalrymple.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Mark Dalrymple</p>
+          <p class="t-bio-title">Software Developer &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/mathew_jackson">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Mathew Jackson</p>
+          <p class="t-bio-title">Business Development Representative</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/matt_mathias">
+          <img src="/images/headshots-white-bg/matt-mathias.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Matt Mathias</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/matt_raufman">
+          <img src="/images/headshots-white-bg/matt-raufman.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Matt Raufman</p>
+          <p class="t-bio-title">Mobile UX Designer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/michael_ward">
+          <img src="/images/headshots-white-bg/mikey-ward.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Michael Ward</p>
+          <p class="t-bio-title">Software Developer &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/nate_chandler">
+          <img src="/images/headshots-white-bg/nate-chandler.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Nate Chandler</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/nicole_rej">
+          <img src="/images/headshots-white-bg/nicole-rej.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Nicole Rej</p>
+          <p class="t-bio-title">Training Facilitator</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/norbert_oortigoza">
+          <img src="/images/headshots-white-bg/norbert-oortigoza.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Norbert Ortigoza</p>
+          <p class="t-bio-title">Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/pamela_overman">
+          <img src="/images/headshots-white-bg/pamela-vickers.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Pamela O. Vickers</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/pouria_almassi">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Pouria Almassi</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/paul_turner">
+          <img src="/images/headshots-white-bg/paul-turner.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Paul Turner</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/peter_battaglia">
+          <img src="/images/headshots-white-bg/peter-battaglia.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Peter Battaglia</p>
+          <p class="t-bio-title">iOS Team Manager</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/rachel_langelotti">
+          <img src="/images/headshots-white-bg/rachel-langelotti.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Rachel Langelotti</p>
+          <p class="t-bio-title">Personal Trainer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/rajiv_jhoomuck">
+          <img src="/images/headshots-white-bg/rajiv-jhoomuck.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Rajiv Jhoomuck</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/ross_hambrick">
+          <img src="/images/headshots-white-bg/ross-hambrick.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Ross Hambrick</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/rod_strougo">
+          <img src="/images/headshots-white-bg/rod-strougo.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Rod Strougo</p>
+          <p class="t-bio-title">iOS Team Manager &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/san">
+          <img src="/images/headshots-white-bg/san-smith.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">San Smith</p>
+          <p class="t-bio-title">Office Manager</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/sara_kablack">
+          <img src="/images/headshots-white-bg/sara-kablack.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Sara Kablack</p>
+          <p class="t-bio-title">Project Strategist</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/sarah_koger">
+          <img src="/images/headshots-white-bg/sarah-koger.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Sarah Koger</p>
+          <p class="t-bio-title">Nerd Evangelist</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/scott_markley">
+          <img src="/images/headshots-white-bg/scott-markley.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Scott Markley</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/scott_ritchie">
+          <img src="/images/headshots-white-bg/scott-ritchie.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Scott Ritchie</p>
+          <p class="t-bio-title">Cocoa &amp; iOS Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/sean_farrell">
+          <img src="/images/headshots-white-bg/sean-farrell.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Sean Farrell</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/sean_mccune">
+          <img src="/images/headshots-white-bg/placeholder.png" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Sean McCune</p>
+          <p class="t-bio-title">Software Developer &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/siemen_sikkema">
+          <img src="/images/headshots-white-bg/siemen-sikkema.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Siemen Sikkema</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/shannon_cobourn">
+          <img src="/images/headshots-white-bg/shannon-cobourn.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Shannon Cobourn</p>
+          <p class="t-bio-title">Director of Training Operations</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/stacy_moore">
+          <img src="/images/headshots-white-bg/stacy-moore.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Stacy Moore</p>
+          <p class="t-bio-title">Chief Financial Officer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/stafford_brooke">
+          <img src="/images/headshots-white-bg/stafford-brooke.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Stafford Brooke</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/step_christopher">
+          <img src="/images/headshots-white-bg/step-christopher.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Step Christopher</p>
+          <p class="t-bio-title">Director of Products, Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/steve_marriott">
+          <img src="/images/headshots-white-bg/steve-marriott.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Steve Marriott</p>
+          <p class="t-bio-title">Software Developer &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/steve_sparks">
+          <img src="/images/headshots-white-bg/steve-sparks.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Steve Sparks</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/steven_harman">
+          <img src="/images/headshots-white-bg/steve-harmon.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Steven Harman</p>
+          <p class="t-bio-title">Director of Backend Web</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/tasha_schroeder">
+          <img src="/images/headshots-white-bg/tasha-schroeder.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Tasha Schroeder</p>
+          <p class="t-bio-title">Marketing Manager</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/thomas_ward">
+          <img src="/images/headshots-white-bg/thomas-ward.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Thomas Ward</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/tj_usiyan">
+          <img src="/images/headshots-white-bg/tj-usiyan.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">TJ Usiyan</p>
+          <p class="t-bio-title">Software Developer &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/todd_gandee">
+          <img src="/images/headshots-white-bg/todd-gandee.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Todd Gandee</p>
+          <p class="t-bio-title">Software Developer &amp; Instructor</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/travis_douce">
+          <img src="/images/headshots-white-bg/travis-douce.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Travis Douce</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/zac_stewart">
+          <img src="/images/headshots-white-bg/zac-stewart.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Zac Stewart</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+        <a class="l-about-nerd-bio" href="nerds/zachary_waldowski">
+          <img src="/images/headshots-white-bg/zachary-waldowski.jpg" alt="Staff Headshot" class="bg-about-nerd-bio">
+          <p class="t-bio-name">Zachary Waldowski</p>
+          <p class="t-bio-title">Software Developer</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    <footer class="bg-footer">
+      <div class="l-container">
+        <div class="l-footer-column-left">
+                  <div class="l-footer-col u-pull-left">
+                    <h4>Contact Us</h4>
+                    <p class="js-usOffice">
+                      <b>United States Office</b><br/>
+              1989 College Ave NE<br/>
+              Atlanta, GA 30317<br/>
+              United States of America<br/>
+              Phone: (770) 817-6373<br/>
+
+              <a href="/contact">Send an email</a>
+                    </p>
+                    <p class="js-europeOffice" style="display: none;">
+                      <b>Europe Office</b><br/>
+              Kaap Noord<br />
+              Asterweg 19 C5<br/>
+              1031 HL Amsterdam<br/>
+              The Netherlands<br/>
+              Phone: +31 6 28 833 433<br/>
+              <a href="mailto:europe@bignerdranch.com">Send an email</a>
+                    </p>
+                    <a href="#" class="js-officeInfoEU t-footer-contact-text">Europe Contact Info</a>
+                    <a href="#" class="js-officeInfoUS t-footer-contact-text" style="display: none;">U.S. Contact Info</a>
+                  </div>
+
+                  <div class="l-footer-col u-pull-right">
+                    <h4>Social Nerds</h4>
+                    <ul class="list-social-nerd">
+              <li class="bg-social-count">
+                      <a class="t-social-count" href="http://www.facebook.com/bignerdranch" target="_blank" title="Social Nerd">
+                        <img src="/images/footer-social-fb-btn-over.png" width="35" height="35" alt="Footer Social Fb Btn Over">
+                        <span id="facebookCount">3,810</span> Fans
+                      </a>
+              </li>
+              <li class="bg-social-count">
+                        <a class="t-social-count" href="http://www.twitter.com/bignerdranch" target="_blank" title="Twitter">
+                          <img src="/images/footer-social-tw-btn-over.png" width="35" height="35" alt="Footer Social Tw Btn Over">
+                          <span id="twitterCount">5,086</span> Followers
+                </a>
+              </li>
+              <li>
+                        <a href="http://blog.bignerdranch.com" target="_blank" title="Blog"><img src="/images/footer-social-blog-btn-over.png" width="35" height="35" alt="Footer Social Blog Btn Over"></a>
+              </li>
+
+              <li>
+                        <a href="http://www.youtube.com/user/BigNerdRanchVideo" target="_blank" title="Youtube"><img src="/images/footer-social-youtube-btn-over.png" width="35" height="35" alt="Footer Social Youtube Btn Over"></a>
+              </li>
+
+              <li>
+                        <a href="http://plus.google.com/u/0/b/113534704509596161677/113534704509596161677/posts" target="_blank" title="Google Plus"><img src="/images/footer-social-googleplus-btn-over.png" width="35" height="35" alt="Footer Social Googleplus Btn Over"></a>
+              </li>
+
+              <li>
+                        <a href="http://www.flickr.com/photos/bignerdranch" target="_blank" title="Flickr"><img src="/images/footer-social-flickr-btn_over.png" width="35" height="35" alt="Footer Social Flickr Btn Over"></a>
+              </li>
+
+              <li>
+                        <a href="http://www.linkedin.com/company/271880?goback=%2Efcs_GLHD_big+nerd+ranch_false_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2_*2&amp;trk=ncsrch_hits" target="_blank" title="LinkedIn"><img src="/images/footer-social-linkedin-btn-over.png" width="35" height="35" alt="Footer Social Linkedin Btn Over"></a>
+              </li>
+                    </ul>
+                  </div>
+        </div>
+
+        <div class="l-footer-column-center bg-nerdvana-ribbon">
+          <ul class="list-nerdvana">
+            <li>Right teachers</li>
+            <li>Right programmers</li>
+            <li>Right materials</li>
+            <li>Right atmosphere</li>
+            <li>Right approach</li>
+            <li>Right concepts</li>
+            <li>Write code</li>
+            <li>Write book</li>
+            <li>Write applications</li>
+          </ul>
+        </div>
+
+        <div class="l-footer-column-right">
+                  <div class="l-footer-col u-pull-left">
+            <h4>Stay Connected</h4>
+            <p class="t-footer-col-text"><b><a href="#" title="Ranch Report">Click here</a></b> to view the latest Ranch Report or get it in your inbox.</p>
+            <a href="/ranch-report"><img src="/images/footer_ranch_report.png" width="192" height="42" alt="Footer Ranch Report"></a>
+
+            <div id="mc_embed_signup" class="form-ranch-report form-home-ranch-report">
+              <form action="http://bignerdranch.us2.list-manage.com/subscribe/post?u=7f16dd989403359d5de17bf42&amp;id=fda4db3715" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                <div class="mc-field-group">
+                  <input type="email" value="" name="EMAIL" class="required email form-ranch-report-text" placeholder="you@youremail.com" id="mce-EMAIL">
+                </div>
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <a href="#" id="searchInputSubmit_side" class="form-ranch-report-arrow"></a>
+                <div class="clear"><input type="submit" id="submit_newsletter_side" name="submit_newsletter_side" class="u-hidden-submit"/></div>
+              </form>
+            </div>
+          </div>
+
+                  <div class="l-footer-col u-pull-right">
+            <h4>Nerd Awards</h4>
+            <img src="/images/best-places-to-work.png" alt="Footer Nerd Award Best Workplace">
+            <a href="http://www.inc.com/inc5000/profile/big-nerd-ranch" target="_blank">
+              <img src="/images/inc5000.png" alt="Footer Nerd Award Inc. 500">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="l-container">
+        <div class="btn-student-login">
+          <a href="/signin" target="_blank" title="Student Login">
+            <img src="/images/footer_student_login_btn.png" width="147" height="33" alt="Student Login Button">
+          </a>
+        </div>
+
+        <nav>
+          <ul class="list-footer-nav">
+            <li><a href="/index" title="Home">Home</a></li>
+            <li><a href="/training" title="Training">Training</a></li>
+            <li><a href="/app-development" title="Consulting">Consulting</a></li>
+            <li><a href="/apps" title="Our Apps">Products</a></li>
+            <li><a href="/books" title="Books">Books</a></li>
+            <li><a href="/about_us" title="About">About</a></li>
+            <li><a href="http://blog.bignerdranch.com/" target="_blank" title="Nerd News">Nerd News</a></li>
+            <li><a href="/contact" title="Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <p class="t-footer-legal">Copyright© 1998 - 2014 Big Nerd Ranch, LLC. All Rights Reserved.  |  <a href="/privacy" class="t-footer-legal-link" title="Privacy Policy">Privacy Policy</a></p>
+    </footer>
+
+    <!-- JavaScript at the bottom for fast page loading -->
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+    <!-- // <script src="/js/libs/jcarousellite_1.0.1.js" type="text/javascript" charset="utf-8"></script>
+    // <script src="/js/libs/easing.js" type="text/javascript" charset="utf-8"></script> -->
+    <script src="/js/libs/lemmon-slider.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="/js/libs/moment.js"></script>
+
+    <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+    <!-- // <script src="/js/libs/bootstrap-js/jquery.js"></script> -->
+
+
+
+
+
+    <!-- scripts concatenated and minified via build script -->
+    <script src="/js/plugins.js"></script>
+
+    <script src="/js/script.js"></script>
+    <!-- end scripts -->
+
+
+
+
+
+
+    <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36446259-1']);
+      _gaq.push(['_setDomainName', 'bignerdranch.com']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <!-- <script>document.getElementsByTagName('html')[0].style.display='block';</script> -->
+    <!--FB ie7 fix-->
+    <script type="text/javascript">
+      adroll_adv_id = "5HDZTYKPBJD53IY7FLPPD5";
+      adroll_pix_id = "RUPVAE4MIBEMPA5LWIZ6G3";
+      (function () {
+        var oldonload = window.onload;
+        window.onload = function(){
+        __adroll_loaded=true;
+        var scr = document.createElement("script");
+        var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+        scr.setAttribute('async', 'true');
+        scr.type = "text/javascript";
+        scr.src = host + "/j/roundtrip.js";
+        ((document.getElementsByTagName('head') || [null])[0] ||
+        document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        if(oldonload){oldonload()}};
+      }());
+    </script>
+  </body>
+</html>
