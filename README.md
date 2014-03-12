@@ -24,7 +24,7 @@ And then execute:
 [4] pry(main)> first_nerd.name
 => "CBQ"
 [5] pry(main)> first_nerd.image
-=> "http:/www.bignerdranch.com/images/headshots-white-bg/cbq.jpg"
+=> "http://www.bignerdranch.com/images/headshots-white-bg/cbq.jpg"
 [6] pry(main)> first_nerd.html_id
 => "cbq"
 ```
