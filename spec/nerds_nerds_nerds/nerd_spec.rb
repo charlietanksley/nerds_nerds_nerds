@@ -20,7 +20,7 @@ describe NerdsNerdsNerds::Nerd do
     expect(data).to receive(:at_css)
       .and_return(css_node)
     nerd = NerdsNerdsNerds::Nerd.new(data)
-    expect(nerd.image(basepath: 'http')).to eq('http/image.jpg')
+    expect(nerd.image(basepath: 'http://foo')).to eq('http://foo/image.jpg')
   end
 
   it 'accessing the name of a nerd' do
