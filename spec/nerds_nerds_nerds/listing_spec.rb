@@ -6,10 +6,10 @@ describe NerdsNerdsNerds::Listing do
 
   describe 'getting a listing of all the nerds' do
     before do
-      stub_const('Nerd', Class.new )
-      expect(Nerd).to receive(:new)
+      stub_const('NerdsNerdsNerds::Nerd', Class.new )
+      expect(NerdsNerdsNerds::Nerd).to receive(:new)
         .exactly(3).times
-        .and_return(Nerd.new)
+        .and_return(NerdsNerdsNerds::Nerd.new)
     end
 
     let(:listing) { NerdsNerdsNerds::Listing.new(html_document) }
@@ -19,7 +19,7 @@ describe NerdsNerdsNerds::Listing do
     end
 
     it 'returns an Array of Nerds' do
-      expect(listing.all.map(&:class).uniq).to eq([Nerd])
+      expect(listing.all.map(&:class).uniq).to eq([NerdsNerdsNerds::Nerd])
     end
   end
 end

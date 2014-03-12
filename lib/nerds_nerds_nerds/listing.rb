@@ -1,4 +1,5 @@
 require 'nokogiri'
+require 'nerds_nerds_nerds/nerd'
 
 module NerdsNerdsNerds
   Listing = Struct.new(:html_document) do
