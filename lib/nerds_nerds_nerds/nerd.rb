@@ -2,13 +2,24 @@ require 'nerds_nerds_nerds/html'
 
 module NerdsNerdsNerds
   Nerd = Struct.new(:html_node) do
-    def image(basepath: HTMLConfiguration.image_base_path)
-      @image ||= begin
-                   img_node = html_node.at_css(HTMLConfiguration.image_node_css_path)
-                   name = img_node.attribute_nodes.first.inner_text
+    def html_id
+      name.gsub(/\s+/, '-').downcase
+    end
 
-                   [basepath, name].join('/').squeeze('/')
-                 end
+    def image(basepath: HTMLConfiguration.image_base_path)
+      @image ||= Array[basepath, html_node
+          .at_css(HTMLConfiguration.image_node_css_path)
+          .attribute_nodes
+          .first
+          .inner_text]
+        .join('/')
+        .squeeze('/')
+    end
+
+    def name
+      @name ||= html_node
+        .at_css(HTMLConfiguration.name_css_path)
+        .inner_html
     end
   end
 end
