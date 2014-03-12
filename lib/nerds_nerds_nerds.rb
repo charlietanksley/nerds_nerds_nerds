@@ -5,4 +5,12 @@ require 'nerds_nerds_nerds/nerd'
 require "nerds_nerds_nerds/version"
 
 module NerdsNerdsNerds
+  def self.nerds
+    @nerds ||= listing.all
+  end
+
+  def self.listing
+    html = HTML.new
+    listing = Listing.new(html.read.parse)
+  end
 end
