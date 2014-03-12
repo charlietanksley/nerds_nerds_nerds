@@ -1,24 +1,33 @@
 # NerdsNerdsNerds
 
-TODO: Write a gem description
+All the Nerds at Big Nerd Ranch (according to the main website).
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'nerds_nerds_nerds'
+    gem 'nerds_nerds_nerds', github: 'charlietanksley/nerds_nerds_nerds'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install nerds_nerds_nerds
-
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+1] pry(main)> require 'nerds_nerds_nerds'
+=> true
+[2] pry(main)> nerds = NerdsNerdsNerds.nerds
+=> [#<struct NerdsNerdsNerds::Nerd ...]
+[3] pry(main)> first_nerd = nerds.first
+=> #<struct NerdsNerdsNerds::Nerd ...>
+[4] pry(main)> first_nerd.name
+=> "CBQ"
+[5] pry(main)> first_nerd.image
+=> "http:/www.bignerdranch.com/images/headshots-white-bg/cbq.jpg"
+[6] pry(main)> first_nerd.html_id
+=> "cbq"
+```
 
 ## Contributing
 
