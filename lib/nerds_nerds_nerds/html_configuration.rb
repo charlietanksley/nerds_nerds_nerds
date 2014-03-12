@@ -10,6 +10,10 @@ module NerdsNerdsNerds
       'http://www.bignerdranch.com'
     end
 
+    def image_node_css_path
+      'img'
+    end
+
     def default_source
       'http://www.bignerdranch.com/about_us/nerds'
     end

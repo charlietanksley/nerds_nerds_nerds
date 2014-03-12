@@ -12,6 +12,11 @@ describe NerdsNerdsNerds::HTMLConfiguration do
       .to eq('http://www.bignerdranch.com')
   end
 
+  specify '.image_node_css_path' do
+    expect(NerdsNerdsNerds::HTMLConfiguration.image_node_css_path)
+      .to eq('img')
+  end
+
   specify '.default_source' do
     expect(NerdsNerdsNerds::HTMLConfiguration.default_source)
       .to eq('http://www.bignerdranch.com/about_us/nerds')
