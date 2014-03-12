@@ -6,6 +6,10 @@ module NerdsNerdsNerds
       'a.l-about-nerd-bio'
     end
 
+    def default_source
+      'http://www.bignerdranch.com/about_us/nerds'
+    end
+
     def image_base_path
       'http://www.bignerdranch.com'
     end
@@ -14,8 +18,8 @@ module NerdsNerdsNerds
       'img'
     end
 
-    def default_source
-      'http://www.bignerdranch.com/about_us/nerds'
+    def name_css_path
+      'p.t-bio-name'
     end
   end
 end
