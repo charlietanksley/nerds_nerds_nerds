@@ -14,9 +14,9 @@ describe NerdsNerdsNerds do
     let(:nerds) { NerdsNerdsNerds.nerds }
 
     it 'includes nerd images' do
-      actual = ['http:/www.bignerdranch.com/images/headshots-white-bg/cbq.jpg',
-        'http:/www.bignerdranch.com/images/headshots-white-bg/aaron-hillegass.jpg',
-        'http:/www.bignerdranch.com/images/headshots-white-bg/adam-premble.jpg']
+      actual = ['http://www.bignerdranch.com/images/headshots-white-bg/cbq.jpg',
+        'http://www.bignerdranch.com/images/headshots-white-bg/aaron-hillegass.jpg',
+        'http://www.bignerdranch.com/images/headshots-white-bg/adam-premble.jpg']
       expect(nerds.map(&:image)).to eq(actual)
     end
 
