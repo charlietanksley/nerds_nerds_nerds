@@ -7,7 +7,7 @@ describe NerdsNerdsNerds::Listing do
   describe 'getting a listing of all the nerds' do
     before do
       stub_const('NerdsNerdsNerds::Nerd', Class.new )
-      expect(NerdsNerdsNerds::Nerd).to receive(:new)
+      allow(NerdsNerdsNerds::Nerd).to receive(:new)
         .exactly(3).times
         .and_return(NerdsNerdsNerds::Nerd.new)
     end
